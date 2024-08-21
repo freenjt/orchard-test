@@ -1,0 +1,20 @@
+uuid: a1d7d2e7-ca2a-48ae-90b4-7e2555959cb9
+langcode: en
+status: true
+dependencies:
+  theme:
+    - orchard_bootstrap
+_core:
+  default_config_hash: xf0E-A387u3DbydHEhqgekOVsKB58a-hZgn7Na7k6UI
+id: orchard_bootstrap_page_title
+theme: orchard_bootstrap
+region: content
+weight: -7
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility: {  }

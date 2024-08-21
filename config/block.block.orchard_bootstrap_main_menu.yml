@@ -1,0 +1,27 @@
+uuid: cfdbbef8-564f-4d24-a6b7-7805c794f85f
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - orchard_bootstrap
+_core:
+  default_config_hash: wgrK2vUQ1Tx93G0DKMryoEkhISOptVrtcBwE7mQqoTA
+id: orchard_bootstrap_main_menu
+theme: orchard_bootstrap
+region: primary_menu
+weight: -6
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Main navigation'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 2
+  expand_all_items: true
+visibility: {  }

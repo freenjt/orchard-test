@@ -1,0 +1,25 @@
+uuid: f39a8aaa-98f6-4432-8ba3-915a87403ae1
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - orchard_bootstrap
+_core:
+  default_config_hash: fVmQsd_Zb1L8xG6GC4Meti7dc05V7LIxndx90hMX4cg
+id: orchard_bootstrap_site_branding
+theme: orchard_bootstrap
+region: header
+weight: -7
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  label_display: '0'
+  provider: system
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: false
+visibility: {  }

@@ -1,0 +1,20 @@
+uuid: e737582c-db17-4655-a11b-4dc2ec671135
+langcode: en
+status: true
+dependencies:
+  theme:
+    - orchard_bootstrap
+_core:
+  default_config_hash: HSE79VOK-YO2CLCa7mPb-8OF2ox5PAOrDQnS07k1VnE
+id: orchard_bootstrap_primary_admin_actions
+theme: orchard_bootstrap
+region: content
+weight: -6
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  label_display: '0'
+  provider: core
+visibility: {  }

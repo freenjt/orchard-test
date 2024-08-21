@@ -1,0 +1,22 @@
+uuid: af85fe4e-c70f-4e46-85cf-b26b06eab609
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - orchard_bootstrap
+_core:
+  default_config_hash: 3WdLLWuBFWJVqhkt2HOnERAD8pcSyr1PbmPFcugpBT4
+id: orchard_bootstrap_help
+theme: orchard_bootstrap
+region: highlighted
+weight: -2
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  label_display: '0'
+  provider: help
+visibility: {  }

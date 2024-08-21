@@ -1,0 +1,22 @@
+uuid: d3f6f010-e8e4-4478-8a1f-c1589f11c79b
+langcode: en
+status: true
+dependencies:
+  theme:
+    - orchard_bootstrap
+_core:
+  default_config_hash: AMpqeR-da6TN06iXUlXym0nMP8KgLSgQbJLzeT6wdoo
+id: orchard_bootstrap_primary_local_tasks
+theme: orchard_bootstrap
+region: content
+weight: -5
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Primary tabs'
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: false
+visibility: {  }

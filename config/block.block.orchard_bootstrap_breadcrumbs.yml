@@ -1,0 +1,22 @@
+uuid: 2a8f0bc6-e9f6-4450-9926-178dc09e8d03
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - orchard_bootstrap
+_core:
+  default_config_hash: dEQCYmvnILYlZyhULfHeXu-KEAxY7u7L5iJ-l1jE4n0
+id: orchard_bootstrap_breadcrumbs
+theme: orchard_bootstrap
+region: breadcrumb
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  label_display: '0'
+  provider: system
+visibility: {  }
