@@ -1,0 +1,9 @@
+name: 'Product of the day'
+type: module
+description: 'Provides a block to display a random product flagged as Product of the Day.'
+package: Custom
+core_version_requirement: ^10 || ^11
+dependencies:
+  - drupal:block
+  - drupal:field
+  - drupal:node

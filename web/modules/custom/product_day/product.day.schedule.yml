@@ -1,0 +1,1 @@
+product_of_the_day_weekly_report:&#10  job: 'product_of_the_day:generateWeeklyReport'&#10  interval: 1w&#10  time: '2:00'

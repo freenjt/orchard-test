@@ -1,0 +1,11 @@
+# Schema for the configuration files of the Product day module.
+product_day.settings:
+  type: config_object
+  label: 'Product day settings'
+  mapping:
+    block_title:
+      type: string
+      label: 'Block Title'
+    admin_email:
+      type: string
+      label: 'Admin Email'

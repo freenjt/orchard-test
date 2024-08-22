@@ -1,0 +1,7 @@
+product_day.settings:
+  path: '/admin/config/system/settings'
+  defaults:
+    _title: 'Product Day Settings'
+    _form: 'Drupal\product_day\Form\SettingsForm'
+  requirements:
+    _permission: 'administer product day'

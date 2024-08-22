@@ -1,0 +1,11 @@
+product_day.settings:
+  title: Product Day Settings
+  parent: system.admin_config_system
+  route_name: product_day.settings
+  weight: 10
+
+entity.product.collection:
+  title: 'Products'
+  description: 'List of products.'
+  route_name: entity.product.collection
+  parent: system.admin_content

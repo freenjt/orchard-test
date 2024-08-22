@@ -1,0 +1,41 @@
+<?php
+
+use Drupal\Core\Render\Element;
+
+/**
+ * Implements hook_theme().
+ */
+function product_day_theme(): array {
+  return [
+    'product' => ['render element' => 'elements'],
+    'product_day_block' => [
+      'variables' => [
+        'product' => NULL,
+        'title' => '',
+      ],
+      'template' => 'product-day-block',
+    ],
+  ];
+}
+
+/**
+ * Prepares variables for product templates.
+ *
+ * Default template: product.html.twig.
+ *
+ * @param array $variables
+ *   An associative array containing:
+ *   - elements: An associative array containing the product information and any
+ *     fields attached to the entity.
+ *   - attributes: HTML attributes for the containing element.
+ */
+function product_day_preprocess_product(array &$variables): void {
+  $variables['view_mode'] = $variables['elements']['#view_mode'];
+  foreach (Element::children($variables['elements']) as $key) {
+    $variables['content'][$key] = $variables['elements'][$key];
+  }
+
+  $route_match = \Drupal::routeMatch();
+  $product = $route_match->getParameter('product');
+  $variables['product'] = $product;
+}
