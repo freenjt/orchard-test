@@ -1,0 +1,25 @@
+uuid: ef129181-4241-45f1-89ce-73e0dde35c56
+langcode: en
+status: true
+dependencies:
+  module:
+    - product_day
+    - system
+  theme:
+    - orchard_bootstrap
+id: orchard_bootstrap_productofthedayblock
+theme: orchard_bootstrap
+region: content
+weight: 0
+provider: null
+plugin: product_day_block
+settings:
+  id: product_day_block
+  label: 'Product of the Day'
+  label_display: '0'
+  provider: product_day
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'
