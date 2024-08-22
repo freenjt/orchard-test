@@ -1,6 +1,6 @@
 uuid: f39a8aaa-98f6-4432-8ba3-915a87403ae1
 langcode: en
-status: true
+status: false
 dependencies:
   module:
     - system
@@ -11,7 +11,7 @@ _core:
 id: orchard_bootstrap_site_branding
 theme: orchard_bootstrap
 region: header
-weight: -7
+weight: -4
 provider: null
 plugin: system_branding_block
 settings:

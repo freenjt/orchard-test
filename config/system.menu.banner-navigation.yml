@@ -1,0 +1,8 @@
+uuid: cd3b34dc-e663-4c4e-bdbf-505ae4624777
+langcode: en
+status: true
+dependencies: {  }
+id: banner-navigation
+label: 'Banner navigation'
+description: ''
+locked: false

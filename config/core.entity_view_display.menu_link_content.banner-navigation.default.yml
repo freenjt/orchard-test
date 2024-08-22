@@ -1,0 +1,19 @@
+uuid: c6bea2ac-6ddd-4f01-a8ab-bb904df996de
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.menu_link_content.banner-navigation.field_banner_image
+    - system.menu.banner-navigation
+id: menu_link_content.banner-navigation.default
+targetEntityType: menu_link_content
+bundle: banner-navigation
+mode: default
+content:
+  children:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  field_banner_image: true

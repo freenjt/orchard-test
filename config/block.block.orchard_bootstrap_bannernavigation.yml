@@ -1,0 +1,29 @@
+uuid: 34da9ee8-a762-4210-82ed-19e77284979f
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.banner-navigation
+  module:
+    - system
+  theme:
+    - orchard_bootstrap
+id: orchard_bootstrap_bannernavigation
+theme: orchard_bootstrap
+region: primary_menu
+weight: 0
+provider: null
+plugin: 'system_menu_block:banner-navigation'
+settings:
+  id: 'system_menu_block:banner-navigation'
+  label: 'Banner navigation'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 2
+  expand_all_items: true
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /node/1
